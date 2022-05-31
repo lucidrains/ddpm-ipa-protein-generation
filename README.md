@@ -1,6 +1,6 @@
 ## DDPM + IPA for Protein Structure and Sequence Generation (wip)
 
-Implementation of the DDPM + IPA (invariant point attention) for protein generation, as outlined in the paper <a href="https://arxiv.org/abs/2205.15019">Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models</a>. They basically combined the invariant attention module from Alphafold2 (used for coordinate refinement) with a standard DDPM, and demonstrate very cool infilling capabilities for protein structure generation.
+Implementation of the DDPM + IPA (invariant point attention) for protein generation, as outlined in the paper <a href="https://arxiv.org/abs/2205.15019">Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models</a>. They basically combined the <a href="https://github.com/lucidrains/invariant-point-attention">invariant point attention</a> module from <a href="https://github.com/deepmind/alphafold">Alphafold2</a> (used for coordinate refinement) with a standard DDPM, and demonstrate very cool infilling capabilities for protein structure generation.
 
 I will also equip this with ability to condition on encoded text, identical to <a href="https://github.com/lucidrains/imagen-pytorch">Imagen</a>
 
